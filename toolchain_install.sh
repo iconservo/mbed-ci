@@ -1,3 +1,5 @@
+#!/bin/sh
+
 # set defaults
 TC_HOME=${TC_HOME:-"/tmp/tc"}
 TC_PLATFORM=${TC_PLATFORM:-"linux"}

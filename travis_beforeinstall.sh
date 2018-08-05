@@ -1,4 +1,4 @@
-#!/usr/bin/sh
+#!/bin/sh
 
 pip install --user -r mbed-os/requirements.txt
 mbed new .
