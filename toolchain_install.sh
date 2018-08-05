@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/usr/bin/env bash
 
 # set defaults
 TC_HOME=${TC_HOME:-"/tmp/tc"}
