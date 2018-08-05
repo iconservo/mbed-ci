@@ -73,6 +73,6 @@ linux_default_download() {
 
   for i in ${TC_HOME}/${GCC_BASE}/bin/arm-none-eabi-* ; do
       echo rm -f  ~/bin/${i##*/}
-      echo ln -s $i ~/bin/${i##*/}
+      echo ln -vs $i ~/bin/${i##*/}
   done
 }
