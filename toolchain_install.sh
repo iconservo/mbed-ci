@@ -72,7 +72,7 @@ linux_default_download() {
   download_one
 
   for i in ${TC_HOME}/${GCC_BASE}/bin/arm-none-eabi-* ; do
-      echo rm -f  ~/bin/${i##*/}
-      echo ln -vs $i ~/bin/${i##*/}
+      rm -f  ~/bin/${i##*/}
+      ln -vs $i ~/bin/${i##*/}
   done
 }
