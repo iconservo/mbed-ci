@@ -69,7 +69,7 @@ download_all() {
 }
 
 linux_default_download() {
-  download_one()
+  download_one
 
   for i in ${TC_HOME}/${GCC_BASE}/bin/arm-none-eabi-* ; do
       echo rm -f  ~/bin/${i##*/}
