@@ -8,3 +8,9 @@ chmod +x mbed-ci/toolchain_install.sh
 
 mbed config GCC_ARM_PATH $HOME/bin
 $HOME/bin/arm-none-eabi-gcc --version
+
+# bootloader build
+export ARMGCC_VERSION="4.9.3"
+download_one
+ls -la ${TC_HOME}
+
